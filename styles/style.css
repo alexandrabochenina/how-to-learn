@@ -36,10 +36,9 @@
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  width: 200px;
+  width: 200px !important;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0 !important;
 }
 
 .logo {
@@ -127,39 +126,52 @@
 
 .table {
   width: 1100px;
-  margin: auto;
+  z-index: 1;
+  margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-between;
-  text-align: left;
   flex-wrap: wrap;
 }
   
 .table__cell {
   margin: 60px 0 0 0;
   width: 250px;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
   
 .section-title {
+  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
 }
 
+.section-title_theme_dark {
+  color: white;
+}
+
 .section-subtitle {
   margin-top: 20px;
-  line-height: 36px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
+
+.section-subtitle_theme_dark {
+  color: white;
+}
   
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
   
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -204,5 +216,26 @@
   right: 48px;
   top: 50%;
   position: absolute;
+}
+
+.kaufman {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  z-index: 0;
+  top: 0;
+  right: -230px;
+  background-image: url(../images/kaufman-triangle.svg);
 }
   
