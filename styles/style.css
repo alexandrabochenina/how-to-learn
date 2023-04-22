@@ -101,7 +101,7 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -171,8 +171,8 @@
 }
 
 .table__cell_theme_dark {
-  width: 200px !important;
-  margin: 80px 0 0 0 !important;
+  width: 200px;
+  margin: 80px 0 0 0;
 }
 
 .table__heading {
