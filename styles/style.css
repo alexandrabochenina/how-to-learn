@@ -5,6 +5,10 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+.content {
+
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -43,7 +47,7 @@
 
 .header__subtitle {
   position: absolute;
-  width: 338px;
+  width: 388px;
   left: 64px;
   bottom: 30px;
   margin: 0;
@@ -310,6 +314,7 @@
   line-height: 25px;
   color: white;
   font-weight: normal;
+  font-size: 18px;
 }
 
 .footer__column-links {
